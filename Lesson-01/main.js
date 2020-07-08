@@ -18,13 +18,13 @@ let boxVolume = width * height * length;
 console.log('box volume:', boxVolume);
 
 let boxSideOne = width * height;
-console.log('box Side One', boxSideOne);
+console.log('box side one', boxSideOne);
 
 let boxSideTwo = width * length;
-console.log('box Side Two', boxSideTwo);
+console.log('box side two', boxSideTwo);
 
 let boxSideThree = length * height;
-console.log('box Side Three', boxSideThree);
+console.log('box side three', boxSideThree);
 
 let circleArea = Math.PI * ((diameter * diameter) / 4);
 console.log('circle area', circleArea);
@@ -32,4 +32,4 @@ console.log('circle area', circleArea);
 // or
 
 let circleArea2 = 3.1415 * (diameter / 2) * (diameter / 2);
-console.log(circleArea2);
+console.log('circle area 2', circleArea2);
